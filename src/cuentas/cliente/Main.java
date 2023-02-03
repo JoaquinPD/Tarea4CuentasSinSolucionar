@@ -15,14 +15,14 @@ public class Main {
         System.out.println("El saldo actual es:"+ cuenta1.estado() );
 
         try {
-            cuenta1.retirar(2300);
+            cuenta1.retirar(500);
             System.out.println("El saldo actual es:"+ cuenta1.estado() );
         } catch (Exception e) {
             System.out.print("Fallo al retirar");
         }
         try {
             System.out.println("Ingreso en cuenta");
-            cuenta1.ingresar(695);
+            cuenta1.ingresar(1000);
             System.out.println("El saldo actual es:"+ cuenta1.estado() );
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
